@@ -1,0 +1,17 @@
+<%- include ("./partials/header.ejs")%>
+<div class="container">
+	<div class="jumbotron">
+	<div class="row">
+		<div class="col-lg-12">
+<h2><%=post.title%></h2>
+<img class="mx-auto d-block" src="<%=post.img%>">
+<p><%=post.content%></p>
+<a class="btn btn-primary" href="/posts/<%-post._id%>/edit">Edit</a>
+	<form id="delete" action="/posts/<%=post._id%>?_method=DELETE" method="POST">
+		<button class="btn btn-danger" value="<%-post._id%>">Delete</button>
+	</form>
+</div>
+</div>
+</div>
+</div>
+<%- include ("./partials/footer.ejs")%>

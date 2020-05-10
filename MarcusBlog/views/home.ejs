@@ -1,0 +1,18 @@
+<%- include ("./partials/header.ejs")%>
+
+<div>
+	<% posts.forEach(function(post) { %>
+		<div class="container">
+			<div class="img-thumbnail">
+				<h2><%=post.title%></h2>
+				<img class="mx-auto d-block" alt="Responsive image" src="<%=post.img%>">
+				<p><%=post.content.substring(0, 400)%>
+					<a href="/posts/<%=post._id%>">Read more</a>
+				</p>
+			</div>
+		</div>
+	<% }); %>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   
+<%- include ("./partials/footer.ejs")%>

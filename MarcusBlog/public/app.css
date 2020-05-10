@@ -1,0 +1,56 @@
+h2 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+h3 {
+	padding-left: 20px;
+}
+
+p {
+	padding-left: 20px;
+	text-align: left;
+}
+
+form {
+	width: 70%;
+}
+
+input {
+	margin: 5px 5px;
+}
+
+.img-thumbnail {
+	align-content: center;
+	padding: 30px 30px;
+	width: 100%;
+	background-color: #ddf;
+	margin: 30px 30px;
+}
+
+img {
+	align-self: center;
+	vertical-align: center;
+	align-content: center;
+	padding-bottom: 25px;
+}
+
+.jumbotron {
+	background-color: #ddf;
+	align-content: center;
+}
+
+button {
+	padding: 5px 5px;
+	margin: 5px 5px;
+}
+
+body {
+	color: navy;
+	align-content: center;
+	align-items: center;
+	background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg1.tebyan.net%2FBig%2F1392%2F04%2F77185196224497624214036842013919611393116.jpg&f=1&nofb=1);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
